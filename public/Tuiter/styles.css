@@ -1,0 +1,53 @@
+::placeholder { color: white; }
+body { background-color: black; }
+p { color: white; }
+h2 { color: white; }
+h3 { color: white; }
+
+/*Colors*/
+.wd-color-white { color: white; }
+.wd-color-lightgray { color: lightgray; }
+.wd-color-red { color: red; }
+
+
+.wd-pos-relative { position: relative; }
+
+/*Border*/
+.wd-border-none { border-style: none; }
+.wd-border-solid { border-style: solid; }
+.wd-border-wireframe {
+    border-width: 2px;
+    border-color: rgb(47, 51, 54);
+}
+
+/*Margins*/
+.wd-margin-16-left-12-right {
+    margin-left: 16px;
+    margin-right: 12px;
+}
+
+.wd-margin-32-left-24-right {
+    margin-left: 32px;
+    margin-right: 24px;
+}
+
+.wd-margin-92-left-24-right {
+    margin-left: 92px;
+    margin-right: 24px;
+}
+
+/*Floating*/
+.wd-float-left { float: left; }
+.wd-float-right { float: right; }
+.wd-float-done { clear: both; }
+
+/*Rounded corners*/
+.wd-post-image-rounded-corners { border-radius: 15px; }
+.wd-rounded-corners-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.wd-rounded-corners-bottom {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

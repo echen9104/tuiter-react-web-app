@@ -1,15 +1,6 @@
-::placeholder {
-    color: white;
-}
 th { font-size: 50px; }
-body { background-color: black; }
-p { color: white; }
-h2 { color: white; }
-h3 { color: white; }
-.fa-gear { color: rgb(29,161,242); }
 
-.wd-color-white { color: white; }
-.wd-color-lightgray { color: lightgray; }
+.fa-gear { color: rgb(29,161,242); }
 
 .wd-close-line-gap-15 {
     position: relative;
@@ -28,7 +19,6 @@ h3 { color: white; }
     font-size: 15px;
 }
 
-.wd-pos-relative { position: relative; }
 .wd-pos-relative-20-top-20-bottom {
     position: relative;
     top: 20px;
@@ -42,26 +32,7 @@ h3 { color: white; }
 
 .wd-padding { padding: 20px; }
 
-.wd-margin-16-left-12-right {
-    margin-left: 16px;
-    margin-right: 12px;
-}
-
-.wd-margin-32-left-24-right {
-    margin-left: 32px;
-    margin-right: 24px;
-}
-
-.wd-border-none { border-style: none; }
-.wd-border-solid { border-style: solid; }
-.wd-border-wireframe {
-    border-width: 2px;
-    border-color: rgb(47, 51, 54);
-}
 .wd-border-margin-top { margin-top: 10px; }
-.wd-float-left { float: left; }
-.wd-float-right { float: right; }
-.wd-float-done { clear: both; }
 
 .wd-section-font-15 { font-size: 15px; }
 
@@ -91,7 +62,5 @@ h3 { color: white; }
 .wd-post-title-width { width: 80%; }
 
 .wd-post-nudge-up { bottom: 10px; }
-
-.wd-post-image-rounded-corners { border-radius: 15px; }
 
 .wd-post-image-margin { margin-right: 28px; }

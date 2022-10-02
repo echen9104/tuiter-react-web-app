@@ -1,0 +1,93 @@
+.fa-message {
+    color: lightgray;
+}
+.fa-retweet {
+    color: lightgray;
+}
+a{
+    text-decoration: none;
+}
+.wd-bookmarks-width {
+    width: 614px;
+}
+.wd-bookmarks-title {
+    color: white;
+    font-size: 20px;
+}
+
+.wd-bookmarks-user {
+    color: lightgray;
+    font-size: 13px;
+}
+
+.wd-margin-top-12 {
+    margin-top: 12px;
+}
+
+.wd-margin-bottom-12 {
+    margin-bottom: 12px;
+}
+
+.wd-margin-right-12 {
+    margin-right: 12px;
+}
+
+.wd-margin-right-30 {
+    margin-right: 30px;
+}
+
+.wd-bookmarks-post-name {
+    color: white;
+    font-size: 15px;
+}
+
+.wd-bookmarks-post-tag {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-bookmarks-post-content {
+    color: white;
+    font-size: 15px;
+    width: 506px;
+}
+
+.wd-bookmarks-post-description {
+    color: white;
+    font-size: 15px;
+    width: 480px;
+}
+
+.wd-post-border {
+    border-style: solid;
+    border-width: 1px;
+    color: lightgray;
+}
+
+.wd-nudge-up-40 {
+    position: relative;
+    bottom: 40px;
+}
+
+.wd-nudge-up-80 {
+    position: relative;
+    bottom: 70px;
+}
+
+.wd-nudge-up-36 {
+    position: relative;
+    bottom: 36px;
+}
+
+.wd-nudge-up-48 {
+    position: relative;
+    bottom: 48px;
+}
+
+.wd-circle-image {
+    border-radius: 50%;
+}
+
+.wd-padding-12 {
+    padding:12px;
+}
