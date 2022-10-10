@@ -1,0 +1,66 @@
+th { font-size: 50px; }
+
+.fa-gear { color: rgb(29,161,242); }
+
+.wd-close-line-gap-15 {
+    position: relative;
+    bottom: 15px;
+}
+
+.wd-close-line-gap-30 {
+    position: relative;
+    bottom: 30px;
+}
+
+.wd-rounded-corners-all-around { border-radius: 40px; }
+.wd-dimension-search-bar {
+    width: 85%;
+    height: 25px;
+    font-size: 15px;
+}
+
+.wd-pos-relative-20-top-20-bottom {
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+}
+
+.wd-fg-white-bg-darkgray {
+    color: white;
+    background-color: darkgray;
+}
+
+.wd-padding { padding: 20px; }
+
+.wd-border-margin-top { margin-top: 10px; }
+
+.wd-section-font-15 { font-size: 15px; }
+
+.wd-section-padding { padding: 16px; }
+
+.wd-section-clicked { color: rgb(29,161,242); }
+
+.wd-section-not-clicked { color: rgb(110, 118, 125); }
+
+.wd-section-highlighted {
+    border-bottom-style: solid;
+    border-bottom-color: rgb(29,161,242);
+    border-bottom-width: 4px;
+}
+
+.wd-darkgray-box { background-color: darkgray; }
+
+.wd-trending-topic-subtext {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-post-timestamp { color: rgb(110, 118, 125); }
+
+.wd-post-box-height { height: 140px; }
+
+.wd-post-title-width { width: 80%; }
+
+.wd-post-nudge-up { bottom: 10px; }
+
+.wd-post-image-margin { margin-right: 28px; }
