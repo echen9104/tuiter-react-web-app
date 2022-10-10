@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/0b1028a8eb.js" crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid mt-2">
+    <div class="row">
+        <div class="col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2">
+            <div class="list-group">
+                <a href="../navigation.html"
+                   class="list-group-item list-group-item-action">
+                    <span class="fab fa-twitter"></span>
+                </a>
+                <a href="../home.html"
+                   class="list-group-item list-group-item-action">
+                    <span class="fa-solid fa-house-chimney"></span>
+                    <span class="d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">Home</span>
+                </a>
+                <a href="#"
+                   class="list-group-item list-group-item-action active">
+                    <span class="fa-solid fa-hashtag"></span>
+                    <span class="d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">Explore</span>
+                </a>
+                <a href="../Notifications.html"
+                   class="list-group-item list-group-item-action">
+                    <span class="fa-solid fa-bell"></span>
+                    <span class="d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">Notifications</span>
+                </a>
+                <a href="../Messages.html"
+                   class="list-group-item list-group-item-action">
+                    <span class="fa-solid fa-envelope"></span>
+                    <span class="d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">Messages</span>
+                </a>
+                <a href="../bookmarks/index.html"
+                   class="list-group-item list-group-item-action">
+                    <span class="fa-solid fa-bookmark"></span>
+                    <span class="d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">Bookmarks</span>
+                </a>
+                <a href="../lists.html"
+                   class="list-group-item list-group-item-action">
+                    <span class="fa-solid fa-list"></span>
+                    <span class="d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">Lists</span>
+                </a>
+                <a href="../profile.html"
+                   class="list-group-item list-group-item-action">
+                    <span class="fa-solid fa-user"></span>
+                    <span class="d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">Profile</span>
+                </a>
+                <a href="#"
+                   class="list-group-item list-group-item-action">
+        <span class="fa-stack" style="width: 16px">
+            <i class="fa-solid fa-circle fa-stack-1x"></i>
+            <i class="fa-solid fa-ellipsis fa-stack-1x" style="color: white"></i>
+        </span>
+                    <span class="d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">More</span>
+                </a>
+            </div>
+
+            <div class="d-grid p-1">
+                <button class="btn btn-primary override-bs">
+                    <div class="fs-4">
+                        Tweet
+                    </div>
+                </button>
+            </div>
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-11">
+                        <!--Got the icon + text in placeholder from this website: https://rahanaislam.com/how-to-add-icon-in-placeholder/-->
+                        <input class="form-control wd-rounded-corners-all-around" type="text"
+                               placeholder="&#xf002; Search Tuiter"
+                               style="font-family: Arial, 'Font Awesome 5 Free'">
+                    </div>
+                    <div class="col-1">
+                        <i class="fa-solid fa-gear fa-2x" style="color:#0d6efd"></i>
+                    </div>
+                </div>
+
+                <ul class="nav nav-tabs pt-2 pb-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">For you</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sports</a>
+                    </li>
+                    <li class="nav-item d-sm-none d-md-block">
+                        <a class="nav-link" href="#">Entertainment</a>
+                    </li>
+                </ul>
+
+                <div class="card">
+                    <image src="../../images/spacex.webp"
+                           class="card-image-top img-fluid">
+                    </image>
+                    <h1 class="card-img-overlay text-white d-flex align-items-end">SpaceX's Starship</>
+                </div>
+
+                <div class="list-group">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <b class="wd-color-light-text">
+                                    Web Development
+                                </b>
+                                </br>
+                                <b>
+                                    ReactJS
+                                    <span class="fa-stack">
+                            <i class="fa-solid fa-circle fa-stack-1x"></i>
+                            <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>
+                        </span>
+                                    <span class="wd-color-light-text">
+                            - 2h
+                        </span>
+                                </b>
+                                </br>
+                                <b>
+                                    ReactJS is a component based frontend library that makes it very easy to build Single Page Applications or SPAs
+                                </b>
+                            </div>
+                            <div class="col-3">
+                                <image class="img-fluid p-2" src="../../images/reactjs.png">
+                                </image>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <b>
+                                    Javascript
+                                    <span class="fa-stack">
+                            <i class="fa-solid fa-circle fa-stack-1x"></i>
+                            <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>
+                        </span>
+                                    <span class="wd-color-light-text">
+                            - 2h
+                        </span>
+                                </b>
+                                </br>
+                                <b>
+                                    Javascript is programming language that can run on browsers as well as desktops.
+                                </b>
+                                </br>
+                                <b class="wd-color-light-text">
+                                    123k Tuits
+                                </b>
+                            </div>
+                            <div class="col-3">
+                                <image class="img-fluid p-2" src="../../images/js-logo.png">
+                                </image>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <b class="wd-color-light-text">
+                                    Web Development
+                                </b>
+                                </br>
+                                <b>
+                                    jQuery
+                                </b>
+                                </br>
+                                <b class="wd-color-light-text">
+                                    123k Tuits
+                                </b>
+                            </div>
+                            <div class="col-3">
+                                <image class="img-fluid p-2" src="../../images/jquery-logo.png">
+                                </image>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <b class="wd-color-light-text">
+                                    Web Development
+                                </b>
+                                </br>
+                                <b>
+                                    NodeJS
+                                    <span class="fa-stack">
+                        <i class="fa-solid fa-circle fa-stack-1x"></i>
+                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>
+                        </span>
+                                    <span class="wd-color-light-text">
+                         - 2h
+                        </span>
+                                </b>
+                                </br>
+                                <b class="wd-color-light-text">
+                                    123k Tuits
+                                </b>
+                            </div>
+                            <div class="col-3">
+                                <image class="img-fluid p-2" src="../../images/nodejs-logo.png">
+                                </image>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4 d-sm-none d-md-none d-lg-block">
+            <div class="list-group">
+                <div class="list-group-item">
+                    <b>Who to follow</b>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <div class="col-2">
+                            <image src="../../images/java-logo2.jpg"
+                                   class="wd-circle-border"
+                                   width="48px" height="48px">
+                            </image>
+                        </div>
+                        <div class="col-7">
+                            <div style="white-space: nowrap">
+                                <b>
+                                    Java
+                                    <span class="fa-stack">
+                        <i class="fa-solid fa-circle fa-stack-1x"></i>
+                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>
+                        </span>
+                                </b>
+                            </div>
+                            <div class="wd-color-light-text">
+                                @Java
+                            </div>
+                        </div>
+                        <div class="btn btn-primary rounded-pill col-3 p-1">
+                            <div class="fs-4">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <div class="col-2">
+                            <image src="../../images/relativityspace-logo.webp"
+                                   class="wd-circle-border"
+                                   width="48px" height="48px">
+                            </image>
+                        </div>
+                        <div class="col-7">
+                            <div style="white-space: nowrap">
+                                <b>
+                                    Relativity Space
+                                    <span class="fa-stack">
+                        <i class="fa-solid fa-circle fa-stack-1x"></i>
+                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>
+                        </span>
+                                </b>
+                            </div>
+                            <div class="wd-color-light-text">
+                                @relativityspace
+                            </div>
+                        </div>
+                        <div class="btn btn-primary rounded-pill col-3 p-1">
+                            <div class="fs-4">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <div class="col-2">
+                            <image src="../../images/virgin-galactic.webp"
+                                   class="wd-circle-border"
+                                   width="48px" height="48px">
+                            </image>
+                        </div>
+                        <div class="col-7">
+                            <div style="white-space: nowrap">
+                                <b>
+                                    Virgin Galactic
+                                    <span class="fa-stack">
+                        <i class="fa-solid fa-circle fa-stack-1x"></i>
+                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>
+                        </span>
+                                </b>
+                            </div>
+                            <div class="wd-color-light-text">
+                                @virgingalactic
+                            </div>
+                        </div>
+                        <div class="btn btn-primary rounded-pill col-3 p-1">
+                            <div class="fs-4">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <div class="col-2">
+                            <image src="../../images/nasa-logo2.png"
+                                   class="wd-circle-border"
+                                   width="48px" height="48px">
+                            </image>
+                        </div>
+                        <div class="col-7">
+                            <div style="white-space: nowrap">
+                                <b>
+                                    NASA
+                                    <span class="fa-stack">
+                        <i class="fa-solid fa-circle fa-stack-1x"></i>
+                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>
+                        </span>
+                                </b>
+                            </div>
+                            <div class="wd-color-light-text">
+                                @NASA
+                            </div>
+                        </div>
+                        <div class="btn btn-primary rounded-pill col-3 p-1">
+                            <div class="fs-4">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-group-item">
+                    <div class="row">
+                        <div class="col-2">
+                            <image src="../../images/tesla-logo.jpg"
+                                   class="wd-circle-border"
+                                   width="48px" height="48px">
+                            </image>
+                        </div>
+                        <div class="col-7">
+                            <div style="white-space: nowrap">
+                                <b>
+                                    Tesla
+                                    <span class="fa-stack">
+                        <i class="fa-solid fa-circle fa-stack-1x"></i>
+                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>
+                        </span>
+                                </b>
+                            </div>
+                            <div class="wd-color-light-text">
+                                @Tesla
+                            </div>
+                        </div>
+                        <div class="btn btn-primary rounded-pill col-3 p-1">
+                            <div class="fs-4">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="container-fluid">-->
+<!--    <div class="list-group">-->
+<!--        <a href="../navigation.html"-->
+<!--           class="list-group-item list-group-item-action">-->
+<!--            <span class="fab fa-twitter"></span>-->
+<!--        </a>-->
+<!--        <a href="../home.html"-->
+<!--           class="list-group-item list-group-item-action">-->
+<!--            <span class="fa-solid fa-house-chimney"></span>-->
+<!--            Home-->
+<!--        </a>-->
+<!--        <a href="#"-->
+<!--           class="list-group-item list-group-item-action active">-->
+<!--            <span class="fa-solid fa-hashtag"></span>-->
+<!--            Explore-->
+<!--        </a>-->
+<!--        <a href="../Notifications.html"-->
+<!--           class="list-group-item list-group-item-action">-->
+<!--            <span class="fa-solid fa-bell"></span>-->
+<!--            Notifications-->
+<!--        </a>-->
+<!--        <a href="../Messages.html"-->
+<!--           class="list-group-item list-group-item-action">-->
+<!--            <span class="fa-solid fa-envelope"></span>-->
+<!--            Messages-->
+<!--        </a>-->
+<!--        <a href="../bookmarks/index.html"-->
+<!--           class="list-group-item list-group-item-action">-->
+<!--            <span class="fa-solid fa-bookmark"></span>-->
+<!--            Bookmarks-->
+<!--        </a>-->
+<!--        <a href="../lists.html"-->
+<!--           class="list-group-item list-group-item-action">-->
+<!--            <span class="fa-solid fa-list"></span>-->
+<!--            Lists-->
+<!--        </a>-->
+<!--        <a href="../profile.html"-->
+<!--           class="list-group-item list-group-item-action">-->
+<!--            <span class="fa-solid fa-user"></span>-->
+<!--            Profile-->
+<!--        </a>-->
+<!--        <a href="#"-->
+<!--           class="list-group-item list-group-item-action">-->
+<!--        <span class="fa-stack">-->
+<!--            <i class="fa-solid fa-circle fa-stack-1x"></i>-->
+<!--            <i class="fa-solid fa-ellipsis fa-stack-1x" style="color: white"></i>-->
+<!--        </span>-->
+<!--            More-->
+<!--        </a>-->
+<!--    </div>-->
+
+<!--    <div class="d-grid p-1">-->
+<!--        <button class="btn btn-primary override-bs">-->
+<!--            <div class="fs-3">-->
+<!--                Tweet-->
+<!--            </div>-->
+<!--        </button>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="container-fluid">-->
+<!--    <div class="row">-->
+<!--        <div class="col-11">-->
+<!--            &lt;!&ndash;Got the icon + text in placeholder from this website: https://rahanaislam.com/how-to-add-icon-in-placeholder/&ndash;&gt;-->
+<!--            <input class="form-control wd-rounded-corners-all-around" type="text"-->
+<!--                   placeholder="&#xf002; Search Tuiter" style="font-family: Arial, 'Font Awesome 5 Free'">-->
+<!--        </div>-->
+<!--        <div class="col-1">-->
+<!--            <i class="fa-solid fa-gear fa-2x" style="color:#0d6efd"></i>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <ul class="nav nav-tabs">-->
+<!--        <li class="nav-item">-->
+<!--            <a class="nav-link active" href="#">For you</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--            <a class="nav-link" href="#">Trending</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--            <a class="nav-link" href="#">News</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--            <a class="nav-link" href="#">Sports</a>-->
+<!--        </li>-->
+<!--        <li class="nav-item">-->
+<!--            <a class="nav-link" href="#">Entertainment</a>-->
+<!--        </li>-->
+<!--    </ul>-->
+
+<!--    <div class="card">-->
+<!--        <image src="../../images/spacex.webp"-->
+<!--               class="card-image-top img-fluid">-->
+<!--        </image>-->
+<!--        <h1 class="card-img-overlay text-white d-flex align-items-end">SpaceX's Starship</>-->
+<!--    </div>-->
+
+<!--    <div class="list-group">-->
+<!--        <li class="list-group-item">-->
+<!--            <div class="row">-->
+<!--                <div class="col-9">-->
+<!--                    <h5 class="wd-color-light-text">-->
+<!--                        Web Development-->
+<!--                    </h5>-->
+<!--                    <h4>-->
+<!--                        ReactJS-->
+<!--                        <span class="fa-stack">-->
+<!--                            <i class="fa-solid fa-circle fa-stack-1x"></i>-->
+<!--                            <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>-->
+<!--                        </span>-->
+<!--                        <span class="wd-color-light-text">-->
+<!--                            - 2h-->
+<!--                        </span>-->
+<!--                    </h4>-->
+<!--                    <h5>-->
+<!--                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut-->
+<!--                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco-->
+<!--                        laboris nisi ut aliquip ex ea commodo consequat.-->
+<!--                    </h5>-->
+<!--                </div>-->
+<!--                <div class="col-3">-->
+<!--                    <image class="img-fluid p-2" src="../../images/reactjs.png">-->
+<!--                    </image>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </li>-->
+<!--        <li class="list-group-item">-->
+<!--            <div class="row">-->
+<!--                <div class="col-9">-->
+<!--                    <h4>-->
+<!--                        Javascript-->
+<!--                        <span class="fa-stack">-->
+<!--                            <i class="fa-solid fa-circle fa-stack-1x"></i>-->
+<!--                            <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>-->
+<!--                        </span>-->
+<!--                        <span class="wd-color-light-text">-->
+<!--                            - 2h-->
+<!--                        </span>-->
+<!--                    </h4>-->
+<!--                    <h5>-->
+<!--                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut-->
+<!--                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco-->
+<!--                        laboris nisi ut aliquip ex ea commodo consequat.-->
+<!--                    </h5>-->
+<!--                    <h5 class="wd-color-light-text">-->
+<!--                        123k Tuits-->
+<!--                    </h5>-->
+<!--                </div>-->
+<!--                <div class="col-3">-->
+<!--                    <image class="img-fluid p-2" src="../../images/js-logo.png">-->
+<!--                    </image>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </li>-->
+<!--        <li class="list-group-item">-->
+<!--            <div class="row">-->
+<!--                <div class="col-9">-->
+<!--                    <h5 class="wd-color-light-text">-->
+<!--                        Web Development-->
+<!--                    </h5>-->
+<!--                    <h4>-->
+<!--                        jQuery-->
+<!--                    </h4>-->
+<!--                    <h5 class="wd-color-light-text">-->
+<!--                        123k Tuits-->
+<!--                    </h5>-->
+<!--                </div>-->
+<!--                <div class="col-3">-->
+<!--                    <image class="img-fluid p-2" src="../../images/jquery-logo.png">-->
+<!--                    </image>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </li>-->
+<!--        <li class="list-group-item">-->
+<!--            <div class="row">-->
+<!--                <div class="col-9">-->
+<!--                    <h5 class="wd-color-light-text">-->
+<!--                        Web Development-->
+<!--                    </h5>-->
+<!--                    <h4>-->
+<!--                        NodeJS-->
+<!--                        <span class="fa-stack">-->
+<!--                        <i class="fa-solid fa-circle fa-stack-1x"></i>-->
+<!--                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>-->
+<!--                        </span>-->
+<!--                        <span class="wd-color-light-text">-->
+<!--                         - 2h-->
+<!--                        </span>-->
+<!--                    </h4>-->
+<!--                    <h5 class="wd-color-light-text">-->
+<!--                        123k Tuits-->
+<!--                    </h5>-->
+<!--                </div>-->
+<!--                <div class="col-3">-->
+<!--                    <image class="img-fluid p-2" src="../../images/nodejs-logo.png">-->
+<!--                    </image>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </li>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="container-fluid">-->
+<!--    <div class="list-group">-->
+<!--        <div class="list-group-item">-->
+<!--            <b>Who to follow</b>-->
+<!--        </div>-->
+<!--        <div class="list-group-item">-->
+<!--            <div class="row">-->
+<!--                <div class="col-2">-->
+<!--                    <image src="../../images/stock-male.jpg"-->
+<!--                           class="wd-circle-border"-->
+<!--                           width="48px" height="48px">-->
+<!--                    </image>-->
+<!--                </div>-->
+<!--                <div class="col-8">-->
+<!--                    <b>-->
+<!--                        Java-->
+<!--                        <span class="fa-stack">-->
+<!--                        <i class="fa-solid fa-circle fa-stack-1x"></i>-->
+<!--                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>-->
+<!--                        </span>-->
+<!--                    </b>-->
+<!--                    <div class="wd-color-light-text">-->
+<!--                        @Java-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="btn btn-primary override-bs col-2">-->
+<!--                    <div class="fs-3">-->
+<!--                        Follow-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="list-group-item">-->
+<!--            <div class="row">-->
+<!--                <div class="col-2">-->
+<!--                    <image src="../../images/stock-male.jpg"-->
+<!--                           class="wd-circle-border"-->
+<!--                           width="48px" height="48px">-->
+<!--                    </image>-->
+<!--                </div>-->
+<!--                <div class="col-8">-->
+<!--                    <b>-->
+<!--                        Relativity Space-->
+<!--                        <span class="fa-stack">-->
+<!--                        <i class="fa-solid fa-circle fa-stack-1x"></i>-->
+<!--                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>-->
+<!--                        </span>-->
+<!--                    </b>-->
+<!--                    <div class="wd-color-light-text">-->
+<!--                        @relativityspace-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="btn btn-primary override-bs col-2">-->
+<!--                    <div class="fs-3">-->
+<!--                        Follow-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="list-group-item">-->
+<!--            <div class="row">-->
+<!--                <div class="col-2">-->
+<!--                    <image src="../../images/stock-male.jpg"-->
+<!--                           class="wd-circle-border"-->
+<!--                           width="48px" height="48px">-->
+<!--                    </image>-->
+<!--                </div>-->
+<!--                <div class="col-8">-->
+<!--                    <b>-->
+<!--                        Virgin Galactic-->
+<!--                        <span class="fa-stack">-->
+<!--                        <i class="fa-solid fa-circle fa-stack-1x"></i>-->
+<!--                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>-->
+<!--                        </span>-->
+<!--                    </b>-->
+<!--                    <div class="wd-color-light-text">-->
+<!--                        @virgingalactic-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="btn btn-primary override-bs col-2">-->
+<!--                    <div class="fs-3">-->
+<!--                        Follow-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="list-group-item">-->
+<!--            <div class="row">-->
+<!--                <div class="col-2">-->
+<!--                    <image src="../../images/stock-male.jpg"-->
+<!--                           class="wd-circle-border"-->
+<!--                           width="48px" height="48px">-->
+<!--                    </image>-->
+<!--                </div>-->
+<!--                <div class="col-8">-->
+<!--                    <b>-->
+<!--                        NASA-->
+<!--                        <span class="fa-stack">-->
+<!--                        <i class="fa-solid fa-circle fa-stack-1x"></i>-->
+<!--                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>-->
+<!--                        </span>-->
+<!--                    </b>-->
+<!--                    <div class="wd-color-light-text">-->
+<!--                        @NASA-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="btn btn-primary override-bs col-2">-->
+<!--                    <div class="fs-3">-->
+<!--                        Follow-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="list-group-item">-->
+<!--            <div class="row">-->
+<!--                <div class="col-2">-->
+<!--                    <image src="../../images/stock-male.jpg"-->
+<!--                           class="wd-circle-border"-->
+<!--                           width="48px" height="48px">-->
+<!--                    </image>-->
+<!--                </div>-->
+<!--                <div class="col-8">-->
+<!--                    <b>-->
+<!--                        Tesla-->
+<!--                        <span class="fa-stack">-->
+<!--                        <i class="fa-solid fa-circle fa-stack-1x"></i>-->
+<!--                        <i class="fa-solid fa-check fa-inverse fa-stack-1x" style="color: white"></i>-->
+<!--                        </span>-->
+<!--                    </b>-->
+<!--                    <div class="wd-color-light-text">-->
+<!--                        @Tesla-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="btn btn-primary override-bs col-2">-->
+<!--                    <div class="fs-3">-->
+<!--                        Follow-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+</body>
+</html>
