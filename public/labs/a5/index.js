@@ -1,4 +1,4 @@
-// alert('Hello World!');
+alert('Hello World!');
 
 console.log('Section 2.3')
 console.log('Hello World!');
