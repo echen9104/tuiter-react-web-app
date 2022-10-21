@@ -1,6 +1,5 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import WelcomeToFSD from "./WelcomeToFSD";
 import Labs from "./labs";
 import HelloWorld from "./labs/a6/hello-world";
 import Tuiter from "./tuiter";
