@@ -1,5 +1,7 @@
 import React from "react";
 import 'font-awesome/css/font-awesome.min.css';
+import {updateTuitThunk} from "../../services/tuits-thunks";
+import {useDispatch} from "react-redux";
 
 const TuitStats = (
     {
@@ -19,9 +21,11 @@ const TuitStats = (
         }
     }
 ) => {
+    const dispatch = useDispatch();
+
     return(
         <div className="row">
-            <div className="col-3">
+            <div className="col-2">
                 <i className="bi bi-chat"> </i>
                 {tuit.replies}
             </div>
@@ -30,13 +34,20 @@ const TuitStats = (
                 {tuit.retuits}
             </div>
             <div className="col-3">
-                {tuit.liked ?
-                    <i className="bi bi-heart-fill" style={{ color: "red" }}></i> :
-                    <i className="bi bi-heart"> </i>
-                }
+                <i onClick={() => dispatch(updateTuitThunk({
+                    ...tuit,
+                    likes: tuit.likes + 1
+                }))} className="bi bi-heart-fill me-2 text-danger"></i>
                 {tuit.likes}
             </div>
             <div className="col-3">
+                <i onClick={() => dispatch(updateTuitThunk({
+                    ...tuit,
+                    dislikes: tuit.dislikes + 1
+                }))} className="bi bi-hand-thumbs-down-fill me-2"></i>
+                {tuit.dislikes}
+            </div>
+            <div className="col-1">
                 <i className="bi bi-share"></i>
             </div>
         </div>
